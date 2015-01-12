@@ -25,7 +25,7 @@
     <application
         android:name="org.javaprotrepticon.android.fitnessfactsdiary.FitnessFactsDiary"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/book_bookmark"
         android:label="@string/appName"
         android:theme="@style/AppBaseTheme" >
         <activity android:name="org.javaprotrepticon.android.fitnessfactsdiary.activities.MainActivity" >

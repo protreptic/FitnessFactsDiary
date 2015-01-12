@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.sql.SQLException;
 
-import org.javaprotrepticon.android.utils.Apps;
+import org.javaprotrepticon.android.androidutils.Apps;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

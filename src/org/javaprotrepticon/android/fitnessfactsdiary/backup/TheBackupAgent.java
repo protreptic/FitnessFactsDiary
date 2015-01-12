@@ -2,6 +2,8 @@ package org.javaprotrepticon.android.fitnessfactsdiary.backup;
 
 import java.io.IOException;
 
+import org.javaprotrepticon.android.androidutils.Apps;
+
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.BackupDataInput;
 import android.app.backup.BackupDataOutput;
@@ -21,7 +23,7 @@ public class TheBackupAgent extends BackupAgentHelper {
 		mContext = getBaseContext();
 		
 		String path = mContext.getDir("data", Context.MODE_PRIVATE).getPath() + "/" + "petr_bu" + "/";
-		String name = mContext.getPackageName() + "-" + org.javaprotrepticon.android.utils.Apps.getVersionName(mContext) + ".h2.db"; 
+		String name = mContext.getPackageName() + "-" + Apps.getVersionName(mContext) + ".h2.db"; 
 
 		FileBackupHelper backupHelper = new FileBackupHelper(getBaseContext(), path + name);
 		

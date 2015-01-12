@@ -5,8 +5,8 @@ import org.acra.ACRAConfiguration;
 import org.acra.ACRAConfigurationException;
 import org.acra.ReportingInteractionMode;
 import org.acra.annotation.ReportsCrashes;
-import org.javaprotrepticon.android.utils.Device;
-import org.javaprotrepticon.android.utils.Network;
+import org.javaprotrepticon.android.androidutils.Device;
+import org.javaprotrepticon.android.androidutils.Network;
 
 import android.app.Application;
 
