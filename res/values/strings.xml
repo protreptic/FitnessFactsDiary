@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="appName">FitnessFactsDiary</string>
+    <string name="crashMessage">Программа остановлена, отчет об ошибке отправлен автоматически</string>
+    <string name="label_login">логин</string>
+    <string name="label_password">пароль</string>
+    <string name="button_login">ВОЙТИ</string>
+    <string name="authEmptyCredentials">Введите корректный логин и пароль</string>
+    <string name="syncServer">http://sfs.magnat.ru:8081</string>
+    <string name="syncServerSecure">https://sfs.magnat.ru:8443/</string>
+    <string name="sessionActive">Сессия действительна</string>
+    <string name="sessionExpired">Сессия недействительна</string>
+    <string name="addUser">Новый пользователь</string>
+    <string name="addUserDescription">Добавить учетную запись</string>
+    <string name="title">[title]</string>
+    <string name="subtitle">[subtitle]</string>
+    <string name="drawer_layout_summary">This activity illustrates the use of sliding drawers. The
+        drawer may be pulled out from the starting edge, which is left on left-to-right locales,
+        with an edge swipe. If this demo is running on Ice Cream Sandwich or newer you may tap the
+        icon at the starting side of the action bar to open the drawer as well.</string>
+    <string name="drawer_title">Navigation</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="about">О программе</string>
+    <string name="refresh">Обновить данные</string>
+    <string name="update">Обновить</string>
+
+</resources>
